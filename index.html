@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Кодерський острів</h1>
+            <p id="status">Ваш код ще не виконано.</p>
+        </header>
+        <main>
+            <div id="game-area">
+                    <!-- Інформація про рівень та приклади -->
+                    <div id="level-info"></div>
+
+                    <div id="level-intro">
+                        <h2>Рівень 1: Основи JavaScript</h2>
+                        <p>Ваша перша задача: створити змінну та вивести її значення на екран.</p>
+                    </div>   
+                    <div id="hint-container">
+                        <p id="hint">Підказка: Щоб отримати підказку, натисніть кнопку нижче.</p>
+                        <button id="get-hint">Отримати Підказку</button>
+                    </div>             
+            </div>
+            <div id="code-editor">
+                <textarea id="code-input" placeholder="Ваш код тут..."></textarea>
+                <button id="run-code">Виконати Код</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Кодерський Острів</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
